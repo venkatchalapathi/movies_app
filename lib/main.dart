@@ -16,6 +16,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+
   @override
   Widget build(BuildContext context) {
     // Initialize services
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
     final databaseService = DatabaseService.instance;
     final MovieRepository movieRepository = MovieRepositoryImpl(
       apiService: movieApiService,
+
       databaseService: databaseService,
     );
 
