@@ -8,6 +8,7 @@ class Movie {
   final double voteAverage;
   final double popularity;
 
+
   const Movie({
     required this.id,
     required this.title,
