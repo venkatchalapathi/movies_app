@@ -11,6 +11,8 @@ class MovieModel extends Movie {
     required super.releaseDate,
     required super.voteAverage,
     required super.popularity,
+
+
   });
 
   factory MovieModel.fromJson(Map<String, dynamic> json) {
