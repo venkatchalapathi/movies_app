@@ -8,6 +8,7 @@ class MovieModel extends Movie {
     required super.posterPath,
 
     required super.backdropPath,
+
     required super.releaseDate,
     required super.voteAverage,
     required super.popularity,
