@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
           create: (_) => MovieProvider(movieRepository),
         ),
         ChangeNotifierProvider(
+
           create: (_) => MovieDetailsProvider(movieRepository),
         ),
       ],
