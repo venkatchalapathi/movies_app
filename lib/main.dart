@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
     final movieApiService = MovieApiService();
     final databaseService = DatabaseService.instance;
     final MovieRepository movieRepository = MovieRepositoryImpl(
+
       apiService: movieApiService,
 
       databaseService: databaseService,
