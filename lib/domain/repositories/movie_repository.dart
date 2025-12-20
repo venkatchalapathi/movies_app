@@ -11,6 +11,7 @@ abstract class MovieRepository {
   Future<void> addToFavorites(Movie movie);
 
   Future<void> removeFromFavorites(int movieId);
+
   Future<bool> isFavorite(int movieId);
 }
 
