@@ -13,6 +13,7 @@ abstract class MovieRepository {
   Future<void> removeFromFavorites(int movieId);
 
   Future<bool> isFavorite(int movieId);
+  //
 
 }
 
